@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carte de visite - Fatoumata Diallo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #e6eff7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .profile-img {
+      width: 70px;
+      height: 70px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .logo-img {
+      height: 40px;
+    }
+    h2 {
+      font-size: 1.4em;
+      color: #003580;
+      margin: 15px 0 5px;
+    }
+    .subtitle {
+      color: #4a6580;
+      margin-bottom: 20px;
+    }
+    .info p {
+      margin: 8px 0;
+      color: #003580;
+    }
+    .info a {
+      color: #003580;
+      text-decoration: none;
+    }
+    .btn {
+      display: block;
+      margin: 10px auto;
+      background-color: #003580;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <img src="photo-fatoumata.jpg" alt="Fatoumata Diallo" class="profile-img" />
+      <img src="novotel_ibis_logo.png" class="logo-img" alt="Logo Accor"/>
+    </div>
+
+    <h2>Fatoumata DIALLO</h2>
+    <p class="subtitle">Meetings & Events Coordinator<br>Accor Dakar</p>
+
+    <div class="info">
+      <p>☎️ <a href="tel:+221338498484">+221 33 849 84 84</a></p>
+      <p>📞 <a href="tel:+221785478988">+221 78 547 89 88</a></p>
+      <p>📧 <a href="mailto:Fatoumata.diallo@accor.com">Fatoumata.diallo@accor.com</a></p>
+      <p>📩 <a href="mailto:Dakar.meetings@accor.com">Dakar.meetings@accor.com</a></p>
+      <p>📍 <a href="https://www.google.com/maps?q=Avenue+Abdoulaye+Fadiga,+BP+2073+-+18524,+Dakar,+Senegal" target="_blank">Avenue Abdoulaye Fadiga, BP 2073 - 18524, Dakar, Senegal</a></p>
+    </div>
+
+    <a class="btn" href="Fatoumata_DIALLO.vcf" download>+ Enregistrer le contact</a>
+    <a class="btn" href="mailto:Fatoumata.diallo@accor.com?subject=Demande de contact">📩 M'envoyer vos coordonnées</a>
+  </div>
+</body>
+</html>
